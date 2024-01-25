@@ -12,6 +12,7 @@
     <td>Room Number</td>
     <td>Guest</td>
   </tr>
+<!--  przed uzyciem thymeleaf'a upewnić się że jest dodany w POMIE!!!!! -->
   <tr th:each="roomReservation: ${roomReservations}">
     <td th:text="${roomReservation.roomName}">Room Name</td>
     <td th:text="${roomReservation.roomNumber}">Room Number</td>

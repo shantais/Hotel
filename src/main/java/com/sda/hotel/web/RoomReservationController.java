@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Date;
 import java.util.List;
 
+// użycie @Controller nie zwraca json'a
 @Controller
 @RequestMapping("/reservations") //nadana sciezka przewodnia dla wszystkich endpointów związanych z rezerwacjami
 public class RoomReservationController {
